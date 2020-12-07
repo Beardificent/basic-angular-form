@@ -17,10 +17,12 @@
       <input #inputName="ngModel" type="tel" name="phoneNumber ngmodel" placeholder="Your phonenumber" ngModel>
     </label>
     <br/>
-    <select name='languageId' [(ngModel)]="languageName">
-      <option value="{{languageName}}" selected>{{languageName}}</option>
-      <option *ngFor="let language of languages" value="{{language.languageName}}">{{language.languageName}}</option>
-    </select>
+    <label>
+      <select name='languageId' [(ngModel)]="languageName">
+        <option value="{{languageName}}" selected>{{languageName}}</option>
+        <option *ngFor="let language of languages" value="{{language.languageName}}">{{language.languageName}}</option>
+      </select>
+    </label>
     <br/>
     <button type="submit">Send</button>
     </form>

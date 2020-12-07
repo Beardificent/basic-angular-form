@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9163921d-7145-46b7-9b55-791cabf47d49" name="Default Changelist" comment="" />
+    <list default="true" id="9163921d-7145-46b7-9b55-791cabf47d49" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-angular-form/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/basic-angular-form/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-angular-form/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/basic-angular-form/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-angular-form/src/app/friend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/basic-angular-form/src/app/friend.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-angular-form/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/basic-angular-form/src/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +26,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -38,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607329823207</updated>
       <workItem from="1607329828074" duration="6692000" />
-      <workItem from="1607336862047" duration="4206000" />
+      <workItem from="1607336862047" duration="7212000" />
     </task>
     <servers />
   </component>

@@ -28,4 +28,5 @@ export class AppComponent{
   }];
   languageName = 'Select Language';
 
+  friendModel= new Friend("", "", "", 0, null);
 }
