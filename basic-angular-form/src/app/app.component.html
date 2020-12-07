@@ -1,24 +1,28 @@
 <div class="form-container">
-  {{ formName.value | json }}
+  {{ friendModel | json }}
   <form #formName="ngForm" method="post">
     <label>
-      <input [(ngModel)]="friendModel.firstName" type="text" name="firstName" placeholder="Your first name" ngModel>
+      <input [(ngModel)]="friendModel.firstName" type="text" name="firstName"
+              placeholder="Your first name" required ngModel>
     </label>
     <br/>
     <label>
-      <input [(ngModel)]="friendModel.lastName" type="text" name="lastName" placeholder="Your last name" ngModel>
+      <input [(ngModel)]="friendModel.lastName" type="text" name="lastName"
+             placeholder="Your last name" required ngModel>
     </label>
     <br/>
     <label>
-      <input [(ngModel)]="friendModel.email" type="email" name="email" placeholder="Your email" ngModel>
+      <input [(ngModel)]="friendModel.email" type="email" name="email"
+             placeholder="Your email" required ngModel>
     </label>
     <br/>
     <label>
-      <input [(ngModel)]="friendModel.phoneNumber" type="tel" name="phoneNumber" placeholder="Your phonenumber" ngModel>
+      <input [(ngModel)]="friendModel.phoneNumber" type="tel" name="phoneNumber"
+             placeholder="Your phonenumber" required ngModel>
     </label>
     <br/>
     <label>
-      <select name='language' [(ngModel)]="friendModel.language">
+      <select name='language' [(ngModel)]="friendModel.language" required>
         <option value="{{languageName}}" selected>{{languageName}}</option>
         <option *ngFor="let language of languages" value="{{language.languageName}}">{{language.languageName}}</option>
       </select>
